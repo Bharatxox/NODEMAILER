@@ -1,6 +1,6 @@
 const express = require("express");
 const nodemailer = require("nodemailer");
-
+// dalle pull req accept kar
 const app = express();
 
 const transpoter = nodemailer.createTransport({
